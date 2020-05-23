@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap css link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Responsive Portfolio</title>
+</head>
+
+<body
+    style="background-image: url(https://images.unsplash.com/photo-1546743298-d5e465f2c294?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80)">
+    <nav class=" navbar navbar-expand-lg navbar-light bg-info">
+        <a style="font-size: xx-large ;" class="navbar-brand" href="index.html"> <i class="fas fa-file"></i> Portfolio
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="porfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid"
+        style="background-image: url(https://images.unsplash.com/photo-1511287381215-8c58b84f8896?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80); background-size: 100%; background-position: center;">
+
+        <div class="container justify-center">
+            <h3 class="p-0"
+                style="font-family: 'Satisfy', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: whitesmoke;  font-size: 300%;">
+                Academic Projects and Details
+            </h3>
+        </div>
+    </div>
+    <!-- style="background-color: rgb(37, 133, 146);" -->
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="./img/recipe1.png" class="card-img-top" alt="not working">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Recipe App</h5>
+                        <p class="card-text">Project "Lulu's Recipe" began on May 4th, 2020 and was produced by Hedi,
+                            Mykhas,
+                            Napoleon, and I. The project is dedicated towards helping individuals search for, create,
+                            and store recipes all in one application. </p>
+                        <button onclick="window.location= 'https://bhagyashree9402.github.io/Recipe-App/'" type="button"
+                            class="btn btn-primary" style="align-self: center;">PROJECT</button>
+                        <button onclick="window.location= 'https://github.com/Bhagyashree9402/Recipe-App.git'"
+                            type="button" class="btn btn-primary" style="align-self: center;">GIT REPO</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" col mb-4">
+                <div class="card h-100">
+                    <img src="./img/weather1.png" class="card-img-top" alt="Not Working">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">This project is to build a weather dashboard that will run in the browser
+                            and
+                            feature
+                            dynamically updated HTML and CSS.Used the OpenWeather API to retrieve weather data for
+                            cities
+                            and localstorage to store any persistent data. </p>
+                        <button onclick="window.location= 'https://bhagyashree9402.github.io/sixth_assignment/'"
+                            type="button" class="btn btn-primary" style="align-self: center;">PROJECT</button>
+                        <button onclick="window.location= 'https://github.com/Bhagyashree9402/sixth_assignment.git'"
+                            type="button" class="btn btn-primary" style="align-self: center;">GIT REPO</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="./img/dayplaner1.png" class="card-img-top" alt="Not Working">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Day Planner</h5>
+                        <p class="card-text">Simple calendar application that allows the user to save events for each
+                            hour
+                            of the day. This app will run in the browser and feature dynamically updated HTML and CSS
+                            powered by jQuery.
+                        </p>
+                        <button onclick="window.location= 'https://bhagyashree9402.github.io/5th_Assignment/'"
+                            type="button" class="btn btn-primary" style="align-self: center;">PROJECT</button>
+                        <button onclick="window.location= 'https://github.com/Bhagyashree9402/5th_Assignment.git'"
+                            type="button" class="btn btn-primary" style="align-self: center;">GIT REPO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- optional javascripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
